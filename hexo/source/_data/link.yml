@@ -1,0 +1,26 @@
+- class_name: 友情链接
+  class_desc: 那些人，那些事
+  link_list:
+
+
+    - name: Jerry
+      link: https://butterfly.js.org/
+      avatar: https://butterfly.js.org/img/favicon.png
+      descr: butterfly 主题的作者
+
+- class_name: 网站
+  class_desc: 推荐的网站
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-cn/
+      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+      descr: 快速、简洁且高效的博客框架
+    - name: Gin Web Framework
+      link: https://gin-gonic.com/zh-cn/
+      avatar: https://gin-gonic.com/favicons/favicon.ico
+      descr: Go语言最快的全功能Web框架。晶莹剔透。
+    - name: GORM
+      link: https://gorm.io/zh_CN/
+      avatar: https://gin-gonic.com/favicons/favicon.ico
+      descr: The fantastic ORM library for Golang
+    
