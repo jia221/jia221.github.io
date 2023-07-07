@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>网络安全</title>
+      <link href="/2023/07/07/%E5%AE%89%E5%85%A8/"/>
+      <url>/2023/07/07/%E5%AE%89%E5%85%A8/</url>
+      
+        <content type="html"><![CDATA[<h1 id="端口服务及对应漏洞"><a href="#端口服务及对应漏洞" class="headerlink" title="端口服务及对应漏洞"></a>端口服务及对应漏洞</h1><ul><li>端口号：<code>20、21</code> 服务：ftp  ，用于上传、下载文件。</li><li>端口号：<code>22</code>  服务：SSH远程连接，用于通过命令行模式 远程连接 Linux服务器或vps<br>           SSH弱口令破解、用户枚举、SSH隧道及内网代理转发、文件传输</li><li>端口号：<code>23</code> 服务：Telnet远程连接  密码爆破、弱口令</li><li>端口号：<code>25</code>  服务：SMTP邮件服务  邮件伪造</li><li>端口号：<code>53</code>  服务：DNS域名系统   DNS劫持、欺骗 vg  vg</li><li>端口号：<code>67/68</code> 服务：DHCP动态主机配置协议，</li><li>端口号：<code>69</code>  服务：tftp文件传输协议  下载、爆破和嗅探</li><li>端口号：<code>80</code> 服务：HTTP  用于 HTTP 服务提供访问功能如IIS、Apache、Nginx 等服务。第三方通用组件漏洞struts thinkphp jboss ganglia zabbix</li><li>端口号：<code>110</code> 服务：POP3协议，邮件协议  爆破</li><li>端口号：<code>111</code> NFS</li><li>端口号：<code>139</code> 服务：Samba  爆破、未授权访问、远程代码执行</li><li>端口号：<code>143</code> 服务：IMAP 电子邮件的接收的协议。    爆破</li><li>端口号：<code>161</code>  服务：SNMP简单网络管理协议    爆破</li><li>端口号：<code>389</code>  服务：Ldap目录访问协议  注入、弱口令</li><li>端口号: <code>443</code>   服务：HTTPS 提访问功能，加密和通过安全端口传输的协议，SSL心脏滴血</li><li>端口号：<code>445</code>  用来访问共享文件夹，打印机</li><li>端口号：<code>873</code>,Rsync未授权</li><li>端口号：<code>1025</code>  NFS</li><li>端口号：<code>1433</code> 服务： SQL Server 用于供 SQL Server的TCP对外提供服务。扫描弱口令</li><li>端口号：<code>1434</code>服务： SQL Server的UDP 端口用于返回 SQL Server 使用了哪个 TCP&#x2F;IP 端口。</li><li>端口号：<code>1521</code>  服务：Oracle 数据库（收费）  TNS爆破、注入,扫描弱口令</li><li>端口号：<code>2049</code>  服务：nfs服务   上传、下载、文件共享</li><li>端口号：<code>2082/2083</code> cpanel主机管理系统登陆 （国外用较多）</li><li>端口号：<code>2222</code> DA虚拟主机管理系统登陆 （国外用较多）</li><li>端口号：<code>2601</code>,zebra路由，默认密码zebra</li><li>端口号：<code>2604</code> zebra路由，默认密码zebra</li><li>端口号：<code>3128</code> squid代理默认端口，如果没设置口令很可能就直接漫游内网了</li><li>端口号：<code>3306</code>  服务：MySql   爆破、注入、提权,扫描弱口令</li><li>端口号：<code>3312/3311</code> kangle主机管理系统登陆</li><li>端口号：<code>3389</code>  服务：远程桌面的服务端口  Shift后门</li><li>端口号：<code>4440</code> rundeck 参考WooYun: 借用新浪某服务成功漫游新浪内网</li><li>端口号：<code>5432</code>  服务：PostgreSQL（PG）  ,扫描弱口令</li><li>端口号：<code>5560,7778</code>  iSqlPlus数据库 ，Port数据库</li><li>端口号：<code>5900</code>  服务：VNC 虚拟网络控制台，vnc访问:192.168.1.203:1 那么他访问服务器的真正端口是5900+1&#x3D;5901 。 弱口令</li><li>端口号：<code>5984</code>       ，CouchDB <a href="http://xxx:5984/_utils/">http://xxx:5984/_utils/</a></li><li>端口号：<code>6082</code> varnish 参考WooYun: Varnish HTTP accelerator CLI 未授权访问易导致网站  被直接篡改或者作为代理进入内网</li><li>端口号：<code>6379</code>  服务：Redis数据库    爆破，redis未授权</li><li>端口号：<code>7001/7002</code>    服务：WebLogic控制台    WebLogic默认弱口令，Java反序列化</li><li>端口号：<code>8080</code> 服务：TCP,传输控制协议（计算机网络，传输层，和IP协议搭配使用）,第三方通用组件漏洞struts thinkphp jboss ganglia zabbix</li><li>端口号：<code>8083</code> Vestacp主机管理系统 （国外用较多）</li><li>端口号：<code>8088</code> 服务：Nginx：轻量级的Web服务器&#x2F;反向代理服务器及电子邮件代理服务器。,</li><li>端口号：<code>9090</code>   服务：WebSphere控制台    Java反序列化,第三方通用组件漏洞struts thinkphp jboss ganglia                           zabbix</li><li>端口号：<code>9200,9300</code> elasticsearch 参考WooYun: 多玩某服务器ElasticSearch命令执行漏洞</li><li>端口号：<code>10000</code> Virtualmin&#x2F;Webmin 服务器虚拟主机管理系统</li><li>端口号：<code>11211</code> memcache未授权访问</li><li>端口号：<code>27017/27018</code>    服务：MongoDB   爆破、未授权访问</li><li>端口号：<code>50000</code>    SAP命令执行</li><li>端口号：<code>50070,50030</code>   hadoop默认端口未授权访问</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络安全 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网络安全 </tag>
+            
+            <tag> port </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>test</title>
       <link href="/2023/07/07/test/"/>
       <url>/2023/07/07/test/</url>
