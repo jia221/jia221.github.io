@@ -1,0 +1,106 @@
+# Butterfly 主题配置
+# 文档: https://butterfly.js.org/
+
+# 导航菜单
+menu:
+  首页: / || fas fa-home
+  时间轴: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  关于: /about/ || fas fa-heart
+
+# 主题色
+theme_color:
+  enable: true
+  main: "#49b1f5"
+  paginator: "#00a4e4"
+  button_hover: "#ff7246"
+  text_selection_bg: "#00a4e4"
+  link_color: "#49b1f5"
+  link_hover_color: "#ff7246"
+  dark_mode_main: "#3a3a3a"
+  dark_mode_text_selection_bg: "#00a4e4"
+  dark_mode_link_color: "#6290ff"
+  dark_mode_link_hover_color: "#ff7246"
+
+# 暗黑模式
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: 1
+
+# 代码块
+highlight_theme: mac
+highlight_height_limit: 200
+
+# 社交链接
+social:
+  fa fab fa-github: https://github.com/jia221 || GitHub
+  fas fa-envelope: mailto:jiaia@jia-aa.top || Email
+
+# 首页顶部图
+index_img: https://picsum.photos/1920/1080
+
+# 网站副标题
+subtitle:
+  enable: true
+  effect: true
+  typed_option:
+    typeSpeed: 50
+    cursorChar: "_"
+    loop: false
+  subtitle_list:
+    - 记录技术与生活
+    - 用代码改变世界
+    - 学无止境
+
+# 文章页配置
+post_meta:
+  date:
+    enable: true
+    format: "YYYY-MM-DD"
+  updated:
+    enable: true
+    format: "YYYY-MM-DD"
+  categories:
+    enable: true
+  tags:
+    enable: true
+
+# 文章版权
+post_copyright:
+  enable: true
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+# 文章打赏
+reward:
+  enable: false
+
+# 文章分享
+share:
+  enable: true
+
+# 搜索
+search:
+  enable: true
+  path: /local-search.xml
+  field: post
+  content: true
+
+# 页脚
+footer:
+  content: '<a href="https://github.com/jia221">jiaia</a>'
+  hide_footer: false
+
+# 懒加载
+lazyload:
+  enable: true
+  field: site
+  placeholder: /img/loading.gif
+
+# 语言
+language: zh-CN
+
+# 版权
+copyright: true
