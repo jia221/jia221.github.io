@@ -109,7 +109,7 @@ copyright: true
 # 评论系统 - Giscus (基于 GitHub Discussions)
 # 文档: https://giscus.app/
 comments:
-  serve: giscus
+  use: giscus
   lazyload: true
 
 # Giscus 配置
@@ -125,3 +125,4 @@ giscus:
   input_position: top
   reactions_enabled: 1
   lang: zh-CN
+  loading: lazy
