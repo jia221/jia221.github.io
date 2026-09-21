@@ -5,7 +5,7 @@ tags:
   - 公告
   - Hexo
 categories:
-  - 随笔
+  - 生活
 cover: https://picsum.photos/800/450
 ---
 

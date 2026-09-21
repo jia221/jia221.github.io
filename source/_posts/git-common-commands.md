@@ -5,7 +5,7 @@ tags:
   - Git
   - 速查表
 categories:
-  - 技术
+  - 学习
 cover: https://picsum.photos/800/450
 ---
 

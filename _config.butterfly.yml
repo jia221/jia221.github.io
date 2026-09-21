@@ -7,6 +7,7 @@ menu:
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
+  留言板: /messageboard/ || fas fa-comment-dots
   关于: /about/ || fas fa-heart
 
 # 主题色
@@ -36,7 +37,7 @@ highlight_height_limit: 200
 # 社交链接
 social:
   fa fab fa-github: https://github.com/jia221 || GitHub
-  fas fa-envelope: mailto:jiaia@jia-aa.top || Email
+  fas fa-envelope: mailto:3388458239@qq.com || Email
 
 # 首页顶部图
 index_img: https://picsum.photos/1920/1080
@@ -90,7 +91,7 @@ search:
 
 # 页脚
 footer:
-  content: '<a href="https://github.com/jia221">jiaia</a>'
+  content: '<a href="https://github.com/jia221">jiaia</a> | <a href="mailto:3388458239@qq.com">3388458239@qq.com</a>'
   hide_footer: false
 
 # 懒加载
@@ -104,3 +105,23 @@ language: zh-CN
 
 # 版权
 copyright: true
+
+# 评论系统 - Giscus (基于 GitHub Discussions)
+# 文档: https://giscus.app/
+comments:
+  serve: giscus
+  lazyload: true
+
+# Giscus 配置
+giscus:
+  repo: jia221/jia221.github.io
+  repo_id: R_kgDOJ4mDqw
+  category: General
+  category_id: DIC_kwDOJ4mDq84DGDbj
+  theme:
+    light: light
+    dark: dark
+  mapping: pathname
+  input_position: top
+  reactions_enabled: 1
+  lang: zh-CN

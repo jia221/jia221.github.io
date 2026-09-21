@@ -19,7 +19,7 @@ layout: about
 ## 联系方式
 
 - **GitHub**: [jia221](https://github.com/jia221)
-- **邮箱**: jiaia@jia-aa.top
+- **邮箱**: [3388458239@qq.com](mailto:3388458239@qq.com)
 - **域名**: [jia-aa.top](https://jia-aa.top)
 
 ## 关于本站
