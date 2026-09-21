@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>使用 Hexo + GitHub Pages 搭建个人博客</title>
+    <url>/2026/09/20/blog-setup-guide/</url>
+    <content><![CDATA[本文记录了本博客从零搭建的完整过程，包括 Hexo 安装、主题配置、GitHub Pages 部署和自定义域名设置。
+环境准备搭建 Hexo 博客需要以下环境：
+# 检查环境node --version   # Node.js &gt;= 14npm --versiongit --version
+
+安装 Hexo# 全局安装 Hexo CLInpm install -g hexo-cli# 初始化博客hexo init my-blogcd my-blognpm install
+
+安装 Butterfly 主题npm install hexo-theme-butterfly hexo-renderer-stylus hexo-renderer-pug --save
+
+在 _config.yml 中设置主题：
+theme: butterfly
+
+创建文章# 创建新文章hexo new &quot;我的第一篇文章&quot;# 创建关于页面hexo new page about
+
+本地预览hexo server
+
+浏览器访问 http://localhost:4000 即可预览。
+部署到 GitHub Pages
+在 GitHub 创建仓库（用户名.github.io 或自定义名称）
+配置 GitHub Actions 自动部署
+在仓库 Settings → Pages 中设置源为 GitHub Actions
+添加 CNAME 文件绑定自定义域名
+
+自定义域名在 source/ 目录下创建 CNAME 文件，写入域名：
+jia-aa.top
+
+然后在域名 DNS 中添加 CNAME 记录指向 GitHub Pages 地址。
+总结整个搭建过程的核心步骤：
+
+
+
+步骤
+说明
+
+
+
+环境准备
+Node.js + Git
+
+
+Hexo 安装
+npm install -g hexo-cli
+
+
+主题配置
+Butterfly
+
+
+内容创作
+Markdown
+
+
+自动部署
+GitHub Actions
+
+
+域名绑定
+CNAME + DNS
+
+
+享受写作的乐趣吧！
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>GitHub Pages</tag>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>欢迎来到我的博客</title>
+    <url>/2026/09/20/hello-world/</url>
+    <content><![CDATA[欢迎来到我的个人博客！这是我的第一篇文章。
+关于本站本博客基于以下技术栈搭建：
+
+Hexo - 快速、简洁且高效的静态博客框架
+Butterfly - 美观且功能丰富的 Hexo 主题
+GitHub Pages - 免费的静态网站托管服务
+自定义域名 - jia-aa.top
+
+我会写什么这里主要会记录：
+
+技术学习笔记
+项目开发经验
+生活中的思考
+工具推荐与使用技巧
+
+开始阅读欢迎浏览 时间轴 查看所有文章，或前往 关于 了解更多信息。
+Happy blogging! 🎉
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>公告</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git 常用命令速查表</title>
+    <url>/2026/09/20/git-common-commands/</url>
+    <content><![CDATA[日常开发中 Git 是最常用的工具之一，本文整理了常用 Git 命令速查表。
+基础配置# 设置用户名和邮箱git config --global user.name &quot;jia221&quot;git config --global user.email &quot;jia221@jia-aa.top&quot;# 查看配置git config --list
+
+仓库操作# 克隆仓库git clone &lt;url&gt;# 初始化新仓库git init# 添加远程仓库git remote add origin &lt;url&gt;
+
+日常操作# 查看状态git status# 添加文件到暂存区git add .git add &lt;file&gt;# 提交git commit -m &quot;commit message&quot;# 推送git push origin main# 拉取git pull origin main
+
+分支管理# 查看分支git branch# 创建并切换分支git checkout -b &lt;branch-name&gt;# 切换分支git checkout &lt;branch-name&gt;# 合并分支git merge &lt;branch-name&gt;# 删除分支git branch -d &lt;branch-name&gt;
+
+回退操作# 撤销工作区修改git checkout -- &lt;file&gt;# 撤销暂存区git reset HEAD &lt;file&gt;# 回退到上一个版本git reset --hard HEAD^# 查看提交历史git log --oneline
+
+标签管理# 打标签git tag v1.0.0# 推送标签git push origin v1.0.0# 删除标签git tag -d v1.0.0
+
+总结
+
+
+命令
+用途
+
+
+
+git status
+查看状态
+
+
+git add .
+添加所有更改
+
+
+git commit -m
+提交更改
+
+
+git push
+推送到远程
+
+
+git pull
+拉取远程更新
+
+
+git log
+查看历史
+
+
+熟练掌握这些命令，日常 Git 使用就足够了！
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>速查表</tag>
+      </tags>
+  </entry>
+</search>
