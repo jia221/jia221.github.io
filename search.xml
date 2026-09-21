@@ -1,6 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>AI 前沿探索</title>
+    <url>/2026/09/21/ai/</url>
+    <content><![CDATA[AI这里将记录人工智能相关的前沿技术、大模型应用、AI 工具评测等内容。
+从 LLM 到 Agent，从 Prompt Engineering 到 RAG…
+后续会持续更新…
+]]></content>
+      <categories>
+        <category>AI</category>
+      </categories>
+      <tags>
+        <tag>AI</tag>
+        <tag>大模型</tag>
+        <tag>机器学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>产品经理之路</title>
+    <url>/2026/09/21/pm/</url>
+    <content><![CDATA[产品经理这里将记录产品设计思路、需求分析、用户研究、产品方法论等内容。
+技术 + 产品，跨界思考，做有用户价值的产品。
+后续会持续更新…
+]]></content>
+      <categories>
+        <category>产品经理</category>
+      </categories>
+      <tags>
+        <tag>产品经理</tag>
+        <tag>产品思维</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网络安全学习</title>
+    <url>/2026/09/21/cybersecurity/</url>
+    <content><![CDATA[网络安全这里将记录网络安全相关的学习笔记、CTF 解题思路、渗透测试工具使用等内容。
+后续会持续更新…
+]]></content>
+      <categories>
+        <category>网络安全</category>
+      </categories>
+      <tags>
+        <tag>网络安全</tag>
+        <tag>渗透测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>FDE 前端开发工程师成长记录</title>
+    <url>/2026/09/21/fde/</url>
+    <content><![CDATA[FDE - Frontend Development Engineer这里将记录作为前端开发工程师的成长历程、技术选型、架构思考等内容。
+FDE 不仅是技术标签，更是一种持续学习和分享的态度。
+后续会持续更新…
+]]></content>
+      <categories>
+        <category>FDE</category>
+      </categories>
+      <tags>
+        <tag>FDE</tag>
+        <tag>前端</tag>
+        <tag>工程师成长</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>使用 Hexo + GitHub Pages 搭建个人博客</title>
     <url>/2026/09/20/blog-setup-guide/</url>
     <content><![CDATA[本文记录了本博客从零搭建的完整过程，包括 Hexo 安装、主题配置、GitHub Pages 部署和自定义域名设置。
@@ -158,6 +219,19 @@ git log
       <tags>
         <tag>Git</tag>
         <tag>速查表</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>工作记录</title>
+    <url>/2026/09/21/work/</url>
+    <content><![CDATA[工作这里将记录工作中的项目、问题解决、经验总结等内容。
+后续会持续更新…
+]]></content>
+      <categories>
+        <category>工作</category>
+      </categories>
+      <tags>
+        <tag>工作</tag>
       </tags>
   </entry>
 </search>
